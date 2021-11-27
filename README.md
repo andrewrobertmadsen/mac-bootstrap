@@ -35,3 +35,9 @@ ssh-keygen -t rsa -C "andrewrobertmadsen@gmail.com"
 chmod 400 id_rsa
 pbcopy < ~/.ssh/id_rsa.pub #Add as new ssh key on github.
 ```
+
+## AWS
+### awscli
+```bash
+brew install awscli
+```
